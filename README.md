@@ -2,7 +2,7 @@
 
 
 - 🔭 I’m currently working on `Secret`
-- 🌱 I’m currently learning `docer` `kubernetes` `Hyperf(the framework of php swoole)` `php-cli mode` `PHP-DI`
+- 🌱 I’m currently learning `docer` `kubernetes` `Hyperf(the framework of php swoole)` `php-cli mode` `Json-RPC`
 - 👯 I’m looking to collaborate on `NULL`
 - 🤔 I’m looking for help with `NULL`
 - 📫 How to reach me: <a href="mailto:beconfident666@gmail.com">beconfident666@gmail.com</a>
