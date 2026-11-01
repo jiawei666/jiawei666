@@ -28,54 +28,32 @@
 
 ## 项目
 
-### Rambo
+### Rambo <sub>`2026.10.31`</sub>
 
-**一台真正待在自己 Mac 上的个人 AI Agent。**<br>
-`2026.10.31` · `Electron` · `React` · `TypeScript` · `Codex App Server`
+**一台待在自己 Mac 上的个人 AI Agent。**<br>
+本地记忆、多 Bot 协作、Routine、应用连接和语音，都在同一个本机工作区里。
 
 [![GitHub](https://img.shields.io/badge/GitHub-Rambo-181717?style=flat-square&logo=github)](https://github.com/jiawei666/Rambo)
 [![版本](https://img.shields.io/github/v/release/jiawei666/Rambo?style=flat-square&label=%E7%89%88%E6%9C%AC)](https://github.com/jiawei666/Rambo/releases/latest)
-![平台](https://img.shields.io/badge/%E5%B9%B3%E5%8F%B0-macOS%20arm64-111111?style=flat-square)
-
-- **从本地出发**：Bot、聊天、Routine、设置和记忆都保存在本机，并通过隔离的 Codex Home 管理运行时。
-- **多个 Bot，一个工作区**：每个 Bot 独立保留模型、上下文、Skills、MCP、Apps 和 Plugins，同时也能在群聊中协作。
-- **不只是聊天**：Routine、邮箱、微信、电脑/浏览器自动化、语音和本机文件，最终都会回到同一个会话。
-
-[了解 Rambo →](https://github.com/jiawei666/Rambo)
 
 ---
 
-### wecode
+### wecode <sub>`2026.10.28`</sub>
 
-**在微信里使用本机 Codex。**<br>
-`2026.10.28` · `TypeScript` · `Node.js` · `Codex App Server` · `微信 iLink`
+**在微信里继续使用本机 Codex。**<br>
+支持原生会话、图片与文件输入、自然语言切换，以及适合手机阅读的长回答分享页。
 
 [![GitHub](https://img.shields.io/badge/GitHub-wecode-181717?style=flat-square&logo=github)](https://github.com/jiawei666/wecode)
 [![npm](https://img.shields.io/npm/v/%40jiawei666%2Fwecode?style=flat-square&logo=npm&label=npm)](https://www.npmjs.com/package/@jiawei666/wecode)
-![Node.js](https://img.shields.io/badge/Node.js-%E2%89%A522-339933?style=flat-square&logo=node.js&logoColor=white)
-
-- **原生会话**：Codex App Server 保存真实的 thread 历史，wecode 只维护本地绑定和运行状态。
-- **为移动输入设计**：在微信里发送文字、图片或文件，继续同一台机器上的 Codex 会话。
-- **长回答适合手机阅读**：显示原生“正在输入”状态，支持自然语言切换会话，并生成临时的移动端分享页。
-
-[了解 wecode →](https://github.com/jiawei666/wecode) · [npm](https://www.npmjs.com/package/@jiawei666/wecode)
 
 ---
 
-### CODESK
+### CODESK <sub>`2026.10.25`</sub>
 
 **面向 Codex 的三栏终端工作台。**<br>
-`2026.10.25` · `Rust` · `Ratatui` · `PTY` · `Codex App Server`
+把项目会话、原生 Codex、文件与 Git diff 收进同一个终端窗口。
 
 [![npm](https://img.shields.io/npm/v/%40jiawei666%2Fcodesk?style=flat-square&logo=npm&label=npm)](https://www.npmjs.com/package/@jiawei666/codesk)
-![Rust](https://img.shields.io/badge/Rust-2024%20edition-000000?style=flat-square&logo=rust&logoColor=white)
-![平台](https://img.shields.io/badge/%E5%B9%B3%E5%8F%B0-macOS%20%7C%20Linux%20%7C%20Windows-111111?style=flat-square)
-
-- **原生 Codex，不是套壳**：通过 PTY 承载本机安装的 Codex CLI，保留原有输入、颜色、审批和鼠标协议。
-- **会话、文件和 Git 集中在一个窗口**：左侧管理项目会话，中间运行 Codex，右侧查看文件、diff 和受限编辑器。
-- **为真实仓库设计**：异步 ripgrep 搜索、语义导航、Git 预览，以及有明确安全边界的工作区编辑器。
-
-[在 npm 查看 →](https://www.npmjs.com/package/@jiawei666/codesk)
 
 ---
 
